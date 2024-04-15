@@ -19,13 +19,13 @@ func main() {
 			"first_name": "Clark",
 			"last_name": "Kent",
 			"hair_color": "black",
-			"has_dog": true,
+			"has_dog": true
 		},
 		{
 			"first_name": "Bruce",
 			"last_name": "Wayne",
 			"hair_color": "black",
-			"has_dog": false,
+			"has_dog": false
 		}
 	]
 	`
