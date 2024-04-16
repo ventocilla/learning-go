@@ -30,7 +30,7 @@ func main() {
 	]
 	`
 
-	// unMarshal => Json to Struct
+	// unMarshal => Json to data struct (ex: Struct)
 	var unmarshalled []Person
 	err := json.Unmarshal([]byte(myJson), &unmarshalled)
 	if err != nil {
@@ -38,7 +38,7 @@ func main() {
 	}
 	fmt.Printf("unMarsheled: %v", unmarshalled)
 
-	// Write json from a struct, Marshal => struct to Json
+	// Marshal => Data Struct (ex: struct) to Json
 	var mySlice []Person
 	var m1 Person
 	var m2 Person
